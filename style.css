@@ -1,7 +1,7 @@
 :root {
-    --wine: #9f3732;
-    --wine-dark: #7f2d29;
-    --wine-soft: #a3453d;
+    --wine: #b8322c;
+    --wine-dark:#8f2622;
+    --wine-soft: #d14a44;
     --text: #8a3931;
     --text-dark: #732922;
     --bg: #f8f5f4;
@@ -145,10 +145,7 @@ img {
     cursor: pointer;
 }
 
-.menu-toggle svg,
-.icon,
-.footer-icon,
-.hero-icon {
+.menu-toggle svg, .icon, .footer-icon, .hero-icon {
     width: 22px;
     height: 22px;
     stroke: currentColor;
@@ -233,7 +230,7 @@ img {
     min-height: 100vh;
     position: relative;
     padding-top: 88px;
-    background: linear-gradient(rgba(152, 52, 46, 0.88), rgba(152, 52, 46, 0.88)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80') center/cover no-repeat;
+    background: linear-gradient(rgba(184,50,44,0.85), rgba(143,38,34,0.85)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80') center/cover no-repeat;
     overflow: hidden;
 }
 
@@ -241,7 +238,7 @@ img {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(90deg, rgba(97, 22, 19, 0.18), rgba(97, 22, 19, 0.05));
+    background: linear-gradient(90deg, rgba(6, 35, 78, 0.18), rgba(97, 22, 19, 0.05));
     pointer-events: none;
 }
 
@@ -611,7 +608,7 @@ img {
     width: 320px;
     height: 320px;
     border-radius: 999px;
-    background: radial-gradient(circle, rgba(159, 55, 50, 0.09), rgba(159, 55, 50, 0.02) 55%, transparent 70%);
+    background: radial-gradient(circle, rgba(150, 46, 40, 0.09), rgba(159, 55, 50, 0.02) 55%, transparent 70%);
     pointer-events: none;
 }
 
@@ -630,7 +627,7 @@ img {
     width: 85%;
     height: 85%;
     border-radius: 28px;
-    background: linear-gradient(135deg, #b24a43 0%, #8f302b 100%);
+    background: linear-gradient(135deg,  #D3AF37 0%,  #dbca6b 25%, #B8860B 50%, #FFD700 75%,  #D3AF37 100%);
     box-shadow: 0 28px 50px rgba(143, 48, 43, 0.25);
 }
 
@@ -641,7 +638,7 @@ img {
     overflow: hidden;
     background: #fff;
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.16);
-    transform: rotate(-4deg);
+
     transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
