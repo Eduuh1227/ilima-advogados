@@ -6,9 +6,6 @@ const mobileLinks = mobileMenu.querySelectorAll('a');
 const imgPrata = document.getElementById("imgPrata");
 const imgBege = document.getElementById("imgBege");
 
-
-
-revealElements.forEach((el) => observer.observe(el));
 function openMenu() {
     mobileMenu.classList.add('open');
     mobileBackdrop.classList.add('show');
